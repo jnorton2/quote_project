@@ -1,6 +1,6 @@
 import random, textwrap
 
-with open('quotes.txt','r') as file:
+with open('/Users/joshnorton/python/quoteProject/print_quote.py','r') as file:
 	names = []
 	quotes = []
 	for line in file:
