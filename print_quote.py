@@ -1,12 +1,11 @@
-import random, re, subprocess, textwrap
+import random, textwrap
 
-with open('/Users/joshnorton/python/quoteProject/quotes.txt','r') as file:
+with open('quotes.txt','r') as file:
 	names = []
 	quotes = []
 	for line in file:
 	    names.append(line.split('|')[0])
 	    quotes.append(line.split('|')[1])
-
 
 	name_quote_map = zip(names, quotes)
 	random.shuffle(name_quote_map)

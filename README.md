@@ -4,6 +4,6 @@ To get this to run at bash startup add the following to the .bashrc file in your
 ```
 clear
 ECHO "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-python ~/path/to/printQuote.py
+python ~/path/to/print_quote.py
 ECHO "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 ```
